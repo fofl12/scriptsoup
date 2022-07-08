@@ -1,4 +1,5 @@
 # COMRADIO PROTOCOL v3
+This protocol is deprecated! Please use comradio v3 instead.
 
 comradio v3 is a simple decentralized protocol that allows you to chat with others using
 MessagingService, like in IRC.
