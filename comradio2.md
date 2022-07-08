@@ -1,5 +1,4 @@
 # COMRADIO PROTOCOL v2
-This protocol is deprecated! Please use comradio v3 instead.
 
 ### Topic names
 The default topic name is "comradio:".
