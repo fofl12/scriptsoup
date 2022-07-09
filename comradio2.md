@@ -12,6 +12,7 @@ Every message must be a JSON-encoded dictionary containing the following items:
 * Content: depends on type
 * Comment: depends on type (only displayed if type isn't "text")
 * Author: user ID of sender
+* Nickname: the nickname of the author (in revision 2.1)
 
 The most common possible message type are listed below. See more message types in the Extra section.
 * text
@@ -95,6 +96,17 @@ Users willing to be part of the roster should respond with the following example
 	"Type": "rosterResponse",
 	"Content": "",
 	"Author": 2
+}
+```
+
+### Nicknames (revision 2.1)
+Users may use nicknames using the Nickname field. The original username of the author should still be displayed when displaying the Nickname.
+```
+{
+	"Type": "text",
+	"Content": "Example message",
+	"Author": 1,
+	"Nickname": "Example nickname"
 }
 ```
 
