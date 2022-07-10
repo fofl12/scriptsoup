@@ -130,5 +130,3 @@ This message can be displayed as:
 > [❌] roblos left the channel
 
 You can add any other style types, but make sure to keep the Action type!
-
-comradio2 is deprecated. comradio3 (should) be used in all new scripts.
