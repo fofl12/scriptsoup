@@ -1,4 +1,5 @@
 # COMRADIO PROTOCOL v2
+The documentation for comradio2 is now on fofl12/comradio, and the documentation on this repository will no longer be maintained.
 
 ### Topic names
 The default topic name is "comradio:".
