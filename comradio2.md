@@ -90,7 +90,7 @@ A roster request may be sent using the following example:
 	"Author": 4
 }
 ```
-Users willing to be part of the roster should respond with the following example within 5 seconds:
+Users willing to be part of the roster should respond with the following example within 1 second:
 ```
 {
 	"Type": "rosterResponse",
